@@ -37,6 +37,15 @@
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_556ae302-2775-4729-a619-eb884db83745.xml#556ae302-2775-4729-a619-eb884db83745"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="ba2425a7-a8ac-4e2e-8ec8-8a0cee7a169b"
+        source="4916c93f-8ef7-4eda-85b3-21294b976669"
+        target="276787e6-1b3e-4c3e-83ad-b60b5c179b3c">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_94e3b915-d77d-48a3-bd87-a847fb8eccb6.xml#94e3b915-d77d-48a3-bd87-a847fb8eccb6"/>
+    </sourceConnections>
     <bounds
         x="276"
         y="144"
@@ -74,7 +83,7 @@
       targetConnections="6f5c0c85-540e-47b2-81fa-6e6ca0e1d604 e5068793-0bf1-4833-9bfa-f1195f4c2d10">
     <bounds
         x="192"
-        y="288"
+        y="372"
         width="120"
         height="43"/>
     <archimateElement
@@ -113,7 +122,7 @@
     </sourceConnections>
     <bounds
         x="264"
-        y="384"
+        y="468"
         width="120"
         height="43"/>
     <archimateElement
@@ -135,7 +144,7 @@
     </sourceConnections>
     <bounds
         x="96"
-        y="384"
+        y="468"
         width="120"
         height="43"/>
     <archimateElement
@@ -157,11 +166,24 @@
     </sourceConnections>
     <bounds
         x="264"
-        y="468"
+        y="552"
         width="120"
         height="43"/>
     <archimateElement
         xsi:type="archimate:BusinessProcess"
         href="BusinessProcess_d657263d-f52e-4630-a2a2-4ac0abc3353d.xml#d657263d-f52e-4630-a2a2-4ac0abc3353d"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="276787e6-1b3e-4c3e-83ad-b60b5c179b3c"
+      targetConnections="ba2425a7-a8ac-4e2e-8ec8-8a0cee7a169b">
+    <bounds
+        x="276"
+        y="228"
+        width="120"
+        height="44"/>
+    <archimateElement
+        xsi:type="archimate:Resource"
+        href="Resource_a8ad82ec-6e2f-472f-8602-c0944ac96639.xml#a8ad82ec-6e2f-472f-8602-c0944ac96639"/>
   </children>
 </archimate:ArchimateDiagramModel>
